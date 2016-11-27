@@ -1,2 +1,0 @@
-# PWAPP
-Ecom Site
