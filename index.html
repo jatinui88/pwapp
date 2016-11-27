@@ -113,35 +113,21 @@
                             <h2 class="h2-responsive">What's new?</h2>
                         </div>
                         <!--Carousel Wrapper-->
-                        <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+                        <div id="main-carousel" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
                             <!--Indicators-->
                             <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-2" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                                <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#main-carousel" data-slide-to="1"></li>
+                                <li data-target="#main-carousel" data-slide-to="2"></li>
                             </ol>
                             <!--/.Indicators-->
 
                             <!--Slides-->
-                            <div class="carousel-inner" role="listbox">
-                                <div class="carousel-item active">
-                                    <img src="https://mdbootstrap.com/images/ecommerce/slides/slide%20(1).jpg" alt="First slide">
+                            <div class="carousel-inner" role="listbox" data-bind="foreach: carouselData">
+                                <div class="carousel-item" data-bind="css: {'active': $index()==0}">
+                                    <img data-bind="attr: { src: url, alt: alt }">
                                     <div class="carousel-caption">
-                                        <h4>New collection</h4>
-                                        <br>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="https://mdbootstrap.com/images/ecommerce/slides/slide%20(2).jpg" alt="Second slide">
-                                    <div class="carousel-caption">
-                                        <h4>Get discount!</h4>
-                                        <br>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="https://mdbootstrap.com/images/ecommerce/slides/slide%20(3).jpg" alt="Third slide">
-                                    <div class="carousel-caption">
-                                        <h4>Only now for 10$</h4>
+                                        <h4 data-bind="html:title"></h4>
                                         <br>
                                     </div>
                                 </div>
@@ -225,5 +211,7 @@
 
     <script src="js/build/knockout.min.js"></script>
     <script src="js/build/script.min.js"></script>
+    <script src="api/homeData.js"></script>
+
 </body>
 </html>
