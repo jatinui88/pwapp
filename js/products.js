@@ -88,6 +88,7 @@ var Products = (function() {
             productController.getAll().then(function(response) {
                 // bind the products to the UI
                 Page.vm.products(response);
+                Page.vm.carouselData(carouselArr);
                 document.querySelector(".main-content").classList.remove('loading')
             });
         }

@@ -4,6 +4,7 @@ var Page = (function() {
     function ViewModel() {
         var self = this;
         self.products = ko.observableArray([]);
+        self.carouselData = ko.observableArray([]);
     }
 
     // expose the view model through the Page module
