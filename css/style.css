@@ -1,0 +1,73 @@
+/*------ Custom Styling --------*/
+
+/* Header */
+
+.main-logo{
+    background: url(../img/ecom_logo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width:80px;
+    height: 26px;
+    margin-top:4px;
+}
+.main-logo span{display: none;}
+
+
+/*Offline Content*/
+.content {
+    max-width: 72em;
+    margin-left: auto;
+    margin-right: auto;
+}
+#offline {
+    background: #f00;
+    color: #fff;
+    padding: 0.8rem 0 0;
+    margin: 8px auto;
+    width: 70vw;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+/* Main Content */
+
+.main-content{
+    padding-top: 6.5rem;
+    padding-bottom: 2rem;
+}
+
+.main-content.loading {
+    opacity: 0.2;
+}
+
+.widget-wrapper {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 2rem;
+}
+
+.extra-margins {
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.divider-new {
+    margin-top: 0;
+}
+
+/* Footer */
+footer.page-footer{padding-top:0 !important;}
+
+
+/* Media Query */
+
+/* Header */
+@media (max-width: 544px) {
+    .main-logo{
+        float: none !important;
+    }
+}
