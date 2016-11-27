@@ -1,1 +1,32 @@
-
+[{
+    "url" : "http://mdbootstrap.com/images/ecommerce/reg/reg%20(19).jpg",
+    "title": "Product Title1",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "price": "10$"
+}, {
+    "url" : "http://mdbootstrap.com/images/ecommerce/reg/reg%20(15).jpg",
+    "title": "Product Title2",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "price": "20$"
+}, {
+    "url" : "http://mdbootstrap.com/images/ecommerce/reg/reg%20(24).jpg",
+    "title": "Product Title3",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "price": "30$"
+}, {
+    "url" : "http://mdbootstrap.com/images/ecommerce/reg/reg%20(19).jpg",
+    "title": "Product Title4",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "price": "40$"
+}, {
+    "url" : "http://mdbootstrap.com/images/ecommerce/reg/reg%20(15).jpg",
+    "title": "Product Title5",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "price": "25$"
+}, {
+    "url" : "http://mdbootstrap.com/images/ecommerce/reg/reg%20(24).jpg",
+    "title": "Product Title6",
+    "detail": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+    "price": "35$"
+}
+]
