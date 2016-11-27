@@ -17,4 +17,4 @@ Built using traditional HTML5 and vanilla JavaScript that simulates the retrieva
 For the scope of this demo, we will be retrieving a static JSON file instead of a real API. This is only to keep things simple and in the real world you would query an API or use web sockets.
 
 ## Demo
-Demo: [https://incredibleweb.github.io/pwa-tutorial/](https://incredibleweb.github.io/pwa-tutorial/)
+Demo: 
